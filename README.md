@@ -8,6 +8,7 @@ TODO
 
 ### Description Textuelle
 
+Le jeu est opéré depuis un objet unique appelé TurboRivals qui sert de gestionnaire de jeu. Nous utilisons un patron de conception de type composition pour le jeu qui est composé d'une classe Race Manager (singleton, objet unique de contrôle de la course). 
 TurboRivals (Singleton)
 - RaceManager (Singleton)
 - Race (Composition)
@@ -24,13 +25,32 @@ TurboRivals (Singleton)
 
 
 ## Tableau descriptif des classes
-TODO
+
+| Nom de classe  | Description  | Atrributs et Methodes  |
+|--|--|--|
+|RaceManager| contient un objet course...etc| Race aRace, startRace(), endRace(), setWinner ()|
+|Race|TODO|TODO|
+|Vehicles|TODO|TODO|
+|RaceManager|TODO|TODO|
+|PlayerVehicle|TODO|TODO|
+|IAVehicle|TODO|TODO|
+|Track|TODO|TODO|
+|ScoreBoard|TODO|TODO|
+
+
+
 
 ## Patrons de conception utilisés
-TODO
+Singleton utilisé pour un seul objet de gestion de la course.
+Composition car une course est composée de plusieurs véhicules, des objets spéciaux, une piste et un tableau de sport. 
 
 ## Alogrithmique du jeu
-TODO
+
+Notre circuit va être checkpoints. On va avoir 3 checkpoints qui représente 33% du circuit. Et on va utiliser Djistkra pour trouver le plus court chemin entre chaque checkpoint. 
+
+Checkpoint 1 -> Checkpoint 2 -> Checkpoint 3
+
+Si le joueur choisit un niveau de difficulté dans le gestionnaire de course (RaceManager), les IA seront plus intelligentes et utiliserons A* parceque il donnera des résultats plus rapidement et les IA seront plus réactives. 
 
 # Développement
 TODO

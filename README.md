@@ -15,9 +15,13 @@ TurboRivals (Singleton)
      - PlayerVehicle
      - IAVehicle
   - Track
+  - SpecialObjects
   - ScoreBoard
 
 ### Image
+
+![Slide1](https://github.com/user-attachments/assets/6fa1fcb1-1c37-4807-8a32-c7f417d2afea)
+
 
 ## Tableau descriptif des classes
 TODO

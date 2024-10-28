@@ -5,7 +5,19 @@ Code pour le jeu Turbo Rivals un un jeu de course dynamique où les joueurs affr
 TODO
 
 ## Hiérarchie de classe
-TODO
+
+### Description Textuelle
+
+TurboRivals (Singleton)
+- RaceManager (Singleton)
+- Race (Composition)
+  - Vehicles
+     - PlayerVehicle
+     - IAVehicle
+  - Track
+  - ScoreBoard
+
+### Image
 
 ## Tableau descriptif des classes
 TODO
